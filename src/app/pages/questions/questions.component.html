@@ -1,0 +1,22 @@
+<div class="question-wrapper">
+    <div class="progress">
+        <div class="bar" [style.width]="answersGiven / numberOfQuestions * 100+'%'"></div>
+    </div>
+    <div class="question">{{currentQuestion.question}}</div>
+    <div class="answers">
+
+        @for (answer of currentQuestion.answers; track answer.text) {
+        <div class="answer" (click)="selectAnswer(answer)">{{answer.text}}</div> } @empty { none }
+    </div>
+</div>
+
+<div class="score">
+    <span class="title">Recommended clans</span>
+    <div class="clans">
+        @for (clan of sortClans(clanScore); track clan) {
+
+        <div class="item"><span class="clan-name">{{clan.name}}</span> {{clan.score}} points
+        </div>
+        } @empty { none }
+    </div>
+</div>

@@ -1,0 +1,113 @@
+    .question-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        .progress {
+            position: fixed;
+            top: 60px;
+            width: 60%;
+            height: 8px;
+            border: 1px solid #1f233d;
+            border-radius: 4px;
+            .bar {
+                transition: cubic-bezier(0.075, 0.82, 0.165, 1) 250ms all;
+                height: 8px;
+                background: rgb(133, 255, 133);
+                border-radius: 4px;
+            }
+        }
+    }
+    
+    .question {
+        font-size: 24px;
+        font-family: "Brother";
+        margin-bottom: 56px;
+        color: rgb(255 213 119);
+        text-shadow: 0 2px 1px black;
+    }
+    
+    .answers {
+        display: flex;
+        justify-content: stretch;
+        align-items: stretch;
+        flex-direction: column;
+    }
+    
+    .answer {
+        font-size: 16px;
+        box-sizing: border-box;
+        height: 56px;
+        border: 1px solid #1f233d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 32px;
+        background: #1f233d34;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 12px;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1) 250ms all;
+        &:hover {
+            background: #40477434;
+        }
+    }
+    
+    .score {
+        .title {
+            font-size: 16px;
+            font-family: "Brother";
+            margin-bottom: 24px;
+            color: rgb(119, 255, 203);
+        }
+        position: absolute;
+        right: 10px;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        width: 230px;
+        padding: 32px;
+        height: 100vh;
+        box-shadow: -8px 0 24px 0 #1f233d;
+        .clans {}
+        @for $i from 1 through 20 {
+            .item:nth-child(#{$i}) {
+                opacity: 1 - ($i * 4)/100;
+            }
+            .item {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 32px;
+                background: #727dc011;
+                border-radius: 16px;
+                padding: 0 16px;
+                margin-bottom: 8px;
+                &:first-child {
+                    background: #c1f172;
+                    box-shadow: 0 0 5px #c1f172;
+                    border: 1px solid #c1f172;
+                    color: black
+                }
+                .clan-name {
+                    &::first-letter {
+                        text-transform: uppercase;
+                    }
+                }
+            }
+            &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: url(../../../assets/images/sideMenuBG.png);
+                background-size: auto;
+                background-position: center;
+                opacity: 0.2;
+                z-index: -1;
+            }
+        }
+    }
