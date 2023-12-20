@@ -9,7 +9,7 @@ html {
 body {
     font-size: 1.5rem;
     font-family: 'Arboria';
-    background: url('assets/images/vignetage.png') #191430;
+    background: url('assets/images/vignetage.png') rgb(17 24 39);
     color: white;
     user-select: none;
     position: fixed;
@@ -25,7 +25,7 @@ body {
         background: url(assets/images/background.jpg);
         background-size: auto;
         background-position: center;
-        opacity: 0.5;
+        opacity: 0.2;
         filter: blur(100px);
         z-index: -1;
     }

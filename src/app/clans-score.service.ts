@@ -33,9 +33,12 @@ export class ClansScoreService {
   constructor() { }
 
   applyQuestionScore(clansPonderation: any, points: number) {
+    const max = this.getMax(clansPonderation);
+
     this.clanScore.forEach((clan: iClan) => {
-      let newPoints = 3 - clansPonderation[clan.name] - points;
-      clan.score += Math.abs(newPoints);
+      let newPoints = clansPonderation[clan.name] - points;
+      newPoints = max - Math.abs(newPoints);
+      clan.score += newPoints;
     });
 
     this.maxScoreValue+= this.getMax(clansPonderation) * points;
@@ -54,6 +57,7 @@ export class ClansScoreService {
 
     return max;
 }
+
 
   initClanScore(): iClan[]{
     return [

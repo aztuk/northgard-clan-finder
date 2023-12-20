@@ -18,6 +18,7 @@ export class QuestionsComponent implements OnInit {
   public maxScore!: number;
   public numberOfQuestions: number = 0;
   public answersGiven: number = 0;
+  public ended: boolean = false;
 
   constructor(private questions: QuestionsService, private clan: ClansScoreService){  }
 
@@ -29,16 +30,29 @@ export class QuestionsComponent implements OnInit {
   }
 
   selectAnswer(answer: any){
-    this.clan.applyQuestionScore(this.currentQuestion.clans, answer.points);
-    this.questions.closeQuestion();
-    this.answersGiven++;
+    if(!this.ended){
 
-    if(this.questions.questions.length > 0) {
-      this.currentQuestion = this.questions.getRandomQuestion();
-    } else {
-      console.log('end of questionnaire')
+      this.clan.applyQuestionScore(this.currentQuestion.clans, answer.points);
+      this.questions.closeQuestion();
+      this.answersGiven++;
+
+      if(this.questions.questions.length > 0) {
+        this.currentQuestion = this.questions.getRandomQuestion();
+      } else {
+        this.ended = true;
+      }
     }
   }
+
+
+getMaxProp(arr:any, prop:any) {
+  var max;
+  for (var i=0 ; i<arr.length ; i++) {
+      if (max == null || parseInt(arr[i][prop]) > parseInt(max[prop]))
+          max = arr[i];
+  }
+  return max;
+}
 
   sortClans(arr: any[]) {
     return arr.sort((a, b) => {

@@ -1,113 +1,192 @@
-    .question-wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        height: 100vh;
-        .progress {
-            position: fixed;
-            top: 60px;
-            width: 60%;
-            height: 8px;
-            border: 1px solid #1f233d;
-            border-radius: 4px;
-            .bar {
-                transition: cubic-bezier(0.075, 0.82, 0.165, 1) 250ms all;
-                height: 8px;
-                background: rgb(133, 255, 133);
-                border-radius: 4px;
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    &.ended {
+        .question-wrapper {
+            opacity: 0;
+            width: 0%;
+            padding: 0;
+        }
+        .score {
+            .title {
+                opacity: 1;
             }
-        }
-    }
-    
-    .question {
-        font-size: 24px;
-        font-family: "Brother";
-        margin-bottom: 56px;
-        color: rgb(255 213 119);
-        text-shadow: 0 2px 1px black;
-    }
-    
-    .answers {
-        display: flex;
-        justify-content: stretch;
-        align-items: stretch;
-        flex-direction: column;
-    }
-    
-    .answer {
-        font-size: 16px;
-        box-sizing: border-box;
-        height: 56px;
-        border: 1px solid #1f233d;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 32px;
-        background: #1f233d34;
-        border-radius: 5px;
-        cursor: pointer;
-        margin-bottom: 12px;
-        transition: cubic-bezier(0.075, 0.82, 0.165, 1) 250ms all;
-        &:hover {
-            background: #40477434;
-        }
-    }
-    
-    .score {
-        .title {
-            font-size: 16px;
-            font-family: "Brother";
-            margin-bottom: 24px;
-            color: rgb(119, 255, 203);
-        }
-        position: absolute;
-        right: 10px;
-        top: 0;
-        display: flex;
-        flex-direction: column;
-        width: 230px;
-        padding: 32px;
-        height: 100vh;
-        box-shadow: -8px 0 24px 0 #1f233d;
-        .clans {}
-        @for $i from 1 through 20 {
-            .item:nth-child(#{$i}) {
-                opacity: 1 - ($i * 4)/100;
-            }
+            width: 100%;
+            padding: 0 24px;
             .item {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                height: 32px;
-                background: #727dc011;
-                border-radius: 16px;
-                padding: 0 16px;
-                margin-bottom: 8px;
-                &:first-child {
-                    background: #c1f172;
-                    box-shadow: 0 0 5px #c1f172;
-                    border: 1px solid #c1f172;
-                    color: black
-                }
-                .clan-name {
-                    &::first-letter {
-                        text-transform: uppercase;
-                    }
-                }
-            }
-            &::before {
-                content: '';
-                position: absolute;
-                top: 0;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                background: url(../../../assets/images/sideMenuBG.png);
-                background-size: auto;
-                background-position: center;
-                opacity: 0.2;
-                z-index: -1;
+                max-width: 400px;
+                min-width: 200px;
             }
         }
     }
+}
+
+.question-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0 24px;
+    flex: 1;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 600ms all;
+    .progress-wrapper {
+        margin-top: 30px;
+        width: 70%;
+        max-width: 300px;
+        .progress-text {
+            font-size: 13px;
+            margin-bottom: 4px;
+            color: #939cd6;
+            text-align: center;
+        }
+    }
+    .progress {
+        height: 8px;
+        border: 1px solid #181f2d;
+        background: 1px solid #181f2d;
+        border-radius: 4px;
+        .bar {
+            transition: cubic-bezier(0.075, 0.82, 0.165, 1) 250ms all;
+            height: 8px;
+            background: rgb(119, 255, 210);
+            border-radius: 4px;
+        }
+    }
+}
+
+.main-title {
+    font-size: 24px;
+    font-family: "Brother";
+    text-align: center;
+    margin-top: 60px;
+    color: rgb(255 213 119);
+}
+
+.description {
+    color: #889ab7;
+    font-size: 13px;
+    margin-bottom: 60px;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.question {
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 400px;
+    margin-bottom: 30px;
+    color: rgb(119, 255, 210);
+    text-shadow: 0 2px 1px black;
+    text-align: center;
+}
+
+.sep {
+    background: url('../../../assets/images/sep01.png');
+    width: 200px;
+    height: 10px;
+}
+
+.answers {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+}
+
+.answer {
+    font-size: 13px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 16px 24px;
+    line-height: 1.7;
+    background: linear-gradient(to top, rgb(35 49 71 / 50%), rgb(45 61 85 / 55%));
+    box-shadow: 0 0 14px 0 #1a2331;
+    border: 1px solid #191f2d;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 12px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 250ms all;
+    &:hover {
+        background: rgb(101, 114, 134);
+    }
+}
+
+.score {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 600ms all;
+    .title {
+        font-size: 16px;
+        font-family: "Brother";
+        margin-bottom: 24px;
+        color: rgb(119, 255, 203);
+        text-align: center;
+        opacity: 0;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1) 600ms all;
+    }
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,
+    rgba(#141b2b, 0),
+    rgba(#141b2b, 1));
+    @media (min-width: 1024px) {
+        padding-right: 20%;
+        .item {
+            min-width: 120px;
+        }
+    }
+    .clans {}
+    @for $i from 1 through 20 {
+        .item:nth-child(#{$i}) {
+            opacity: 1 - ($i * 4)/100;
+        }
+        .item {
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 24px;
+            background: #727dc011;
+            border-radius: 12px;
+            padding: 0 12px;
+            margin-bottom: 8px;
+            &:first-child {
+                background: rgb(119 255 203 / 84%);
+                box-shadow: 0 0 12px rgb(119, 255, 203);
+                border: 1px solid rgb(119, 255, 203);
+                color: black;
+                font-weight: bold;
+                height: 32px;
+                border-radius: 16px;
+            }
+            .clan-name {
+                margin-right: 8px;
+                &::first-letter {
+                    text-transform: uppercase;
+                }
+            }
+        }
+        /*&::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: url(../../../assets/images/sideMenuBG.png);
+            background-size: auto;
+            background-position: center;
+            opacity: 0.2;
+            z-index: -1;
+        }*/
+    }
+}
