@@ -1,0 +1,85 @@
+/* arboria-regular - latin */
+
+@font-face {
+    font-family: 'Arboria';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/arboria/Arboria-Book.eot');
+    /* IE9 Compat Modes */
+    src: local('Arboria Book'), local('Arboria Book'), url('../fonts/arboria/Arboria-Book.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/arboria/Arboria-Book.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/arboria/Arboria-Book.ttf') format('truetype')
+}
+
+
+/* arboria-italic - latin */
+
+@font-face {
+    font-family: 'Arboria';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/arboria/Arboria-Book-Italic.eot');
+    /* IE9 Compat Modes */
+    src: local('Arboria Book Italic'), local('Arboria Book Italic'), url('../fonts/arboria/Arboria-Book-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/arboria/Arboria-Book-Italic.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/arboria/Arboria-Book-Italic.ttf') format('truetype')
+}
+
+
+/* arboria-medium - latin */
+
+@font-face {
+    font-family: 'Arboria';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/arboria/Arboria-Medium.eot');
+    /* IE9 Compat Modes */
+    src: local('Arboria Medium'), local('Arboria Medium'), url('../fonts/arboria/Arboria-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/arboria/Arboria-Medium.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/arboria/Arboria-Medium.ttf') format('truetype')
+}
+
+
+/* arboria-italic - latin */
+
+@font-face {
+    font-family: 'Arboria';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/arboria/Arboria-Medium-Italic.eot');
+    /* IE9 Compat Modes */
+    src: local('Arboria Medium Italic'), local('Arboria Medium Italic'), url('../fonts/arboria/Arboria-Medium-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/arboria/Arboria-Medium-Italic.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/arboria/Arboria-Medium-Italic.ttf') format('truetype')
+}
+
+
+/* arboria-regular - latin */
+
+@font-face {
+    font-family: 'Arboria';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/arboria/Arboria-Bold.eot');
+    /* IE9 Compat Modes */
+    src: local('Arboria Bold'), local('Arboria Bold'), url('../fonts/arboria/Arboria-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/arboria/Arboria-Bold.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/arboria/Arboria-Bold.ttf') format('truetype')
+}
+
+
+/* montserrat-regular - latin */
+
+@font-face {
+    font-family: 'Brother';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/brother-1816/11-brother1816-bold-web.eot');
+    /* IE9 Compat Modes */
+    src: local('Brother 1816'), local('Brother 1816'), url('../fonts/brother-1816/11-brother1816-bold-web.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/brother-1816/11-brother1816-bold-web.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/brother-1816/11-brother1816-bold-web.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/brother-1816/11-brother1816-bold-web.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/brother-1816/11-brother1816-bold-web.svg') format('svg');
+    /* Legacy iOS */
+}
