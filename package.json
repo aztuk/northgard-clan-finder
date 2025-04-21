@@ -1,12 +1,13 @@
 {
   "name": "northgard-clan-finder",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --localize",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "localization": "ng extract-i18n --output-path .\\src\\locale"
   },
   "private": true,
   "dependencies": {
@@ -26,6 +27,7 @@
     "@angular-devkit/build-angular": "^17.0.7",
     "@angular/cli": "^17.0.7",
     "@angular/compiler-cli": "^17.0.0",
+    "@angular/localize": "^17.0.7",
     "@types/jasmine": "~5.1.0",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",

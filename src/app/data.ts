@@ -1,16 +1,16 @@
 export let QUESTIONS = [{
-  question: 'Clearing',
+  question: $localize`:@@questionClearing:Clearing`,
   answers: [
     {
-      text: 'I love when someone comes to clear me',
+      text: $localize`:@@answerClearingA:I love when someone comes to clear me`,
       points: 0
     },
     {
-      text: 'I like being independent and not rely on someone else to be cleared',
+      text: $localize`:@@answerClearingB:I like being independent and not rely on someone else to be cleared`,
       points: 2
     },
     {
-      text: 'I like farming mobs',
+      text: $localize`:@@answerClearingC:I like farming mobs`,
       points: 4
     }
   ],
@@ -35,22 +35,22 @@ export let QUESTIONS = [{
     owl: 0,
   }
 },{
-  question: 'Fighting micro-management',
+  question: $localize`:@@questionFightingMicro:Fighting micro-management`,
   answers: [
     {
-      text: 'I just send them to a strategic position and wait for the battle to end',
+      text: $localize`:@@answerFightingMicroA:I just send them to a strategic position and wait for the battle to end`,
       points: 0
     },
     {
-      text: 'I select all my army and target key units to kill the biggest threats ',
+      text: $localize`:@@answerFightingMicroB:I select all my army and target key units to kill the biggest threats`,
       points: 1
     },
     {
-      text: 'All of the above and i also use hit&run mechanic',
+      text: $localize`:@@answerFightingMicroC:All of the above and i also use hit&run mechanic`,
       points: 2
     },
     {
-      text: 'I like to use a combination of multiple unit types and micro manage their target and position',
+      text: $localize`:@@answerFightingMicroD:I like to use a combination of multiple unit types and micro manage their target and position`,
       points: 3
     }
   ],
@@ -75,22 +75,22 @@ export let QUESTIONS = [{
     owl: 1,
   }
 },{
-  question: 'Keybindings',
+  question: $localize`:@@questionKeybindings:Keybindings`,
   answers: [
     {
-      text: 'Except from WASD, i do everything with mouse',
+      text: $localize`:@@answerKeybindingsA:Except from WASD, i do everything with mouse`,
       points: 0
     },
     {
-      text: 'I use the most common keybindings to select units (e for army, h for scouts, g for villagers ...)',
+      text: $localize`:@@answerKeybindingsB:I use the most common keybindings to select units (e for army, h for scouts, g for villagers ...)`,
       points: 1
     },
     {
-      text: 'I like to assign 1 or 2 custom groups micro manage specific units',
+      text: $localize`:@@answerKeybindingsC:I like to assign 1 or 2 custom groups micro manage specific units`,
       points: 2
     },
     {
-      text: 'I have a minimum of 4 custom groups every game',
+      text: $localize`:@@answerKeybindingsD:I have a minimum of 4 custom groups every game`,
       points: 3
     }
   ],
@@ -115,18 +115,18 @@ export let QUESTIONS = [{
     owl: 0,
   }
 },{
-  question: 'Tactics',
+  question: $localize`:@@questionTactics:Tactics`,
   answers: [
     {
-      text: 'I hate having to think about complex tactical positionning',
+      text: $localize`:@@answerTacticsA:I hate having to think about complex tactical positionning`,
       points: 0
     },
     {
-      text: 'I like creating surprise flanks, forcing enemy to reposition',
+      text: $localize`:@@answerTacticsB:I like creating surprise flanks, forcing enemy to reposition`,
       points: 2
     },
     {
-      text: 'I love having tools to trap enemies and finish the game with tactical moves',
+      text: $localize`:@@answerTacticsC:I love having tools to trap enemies and finish the game with tactical moves`,
       points: 4
     }
   ],
@@ -151,22 +151,22 @@ export let QUESTIONS = [{
     owl: 3,
   }
 },{
-  question: 'Resource management',
+  question: $localize`:@@questionResourceManagement:Resource management`,
   answers: [
     {
-      text: 'I am confortable with being on the edge of having sick villagers',
+      text: $localize`:@@answerResourceManagementA:I am confortable with being on the edge of having sick villagers`,
       points: 0
     },
     {
-      text: 'I cheese as much as i can but do not calculate well everytime',
+      text: $localize`:@@answerResourceManagementB:I cheese as much as i can but do not calculate well everytime`,
       points: 1
     },
     {
-      text: 'When i try to do it, my people get sick often',
+      text: $localize`:@@answerResourceManagementC:When i try to do it, my people get sick often`,
       points: 2
     },
     {
-      text: 'I prefer having a huge food and wood stock and be never negative in production',
+      text: $localize`:@@answerResourceManagementD:I prefer having a huge food and wood stock and be never negative in production`,
       points: 3
     }
   ],
@@ -191,22 +191,22 @@ export let QUESTIONS = [{
     owl: 2,
   }
 },{
-  question: 'Military presence',
+  question: $localize`:@@questionMilitaryPresence:Military presence`,
   answers: [
     {
-      text: 'I hate having to make army in 801',
+      text: $localize`:@@answerMilitaryPresenceA:I hate having to make army in 801`,
       points: 0
     },
     {
-      text: 'I dont mind making an army but would prefer to scale before',
+      text: $localize`:@@answerMilitaryPresenceB:I dont mind making an army but would prefer to scale before`,
       points: 1
     },
     {
-      text: 'I really dont mind making some units or warchief to assist harrass/defend',
+      text: $localize`:@@answerMilitaryPresenceC:I really dont mind making some units or warchief to assist harrass/defend`,
       points: 2
     },
     {
-      text: 'I want to be the most powerful military in 801',
+      text: $localize`:@@answerMilitaryPresenceD:I want to be the most powerful military in 801`,
       points: 3
     }
   ],
@@ -231,22 +231,22 @@ export let QUESTIONS = [{
     owl: 1,
   }
 },{
-  question: 'Vision',
+  question: $localize`:@@questionVision:Vision`,
   answers: [
     {
-      text: 'I prefer scouting only my first surrounding tiles',
+      text: $localize`:@@answerVisionA:I prefer scouting only my first surrounding tiles`,
       points: 0
     },
     {
-      text: 'I like to scout further out, like the connexion tile and some tier 2 tiles',
+      text: $localize`:@@answerVisionB:I like to scout further out, like the connexion tile and some tier 2 tiles`,
       points: 1
     },
     {
-      text: 'I think scouting deep and spying is crucial',
+      text: $localize`:@@answerVisionC:I think scouting deep and spying is crucial`,
       points: 2
     },
     {
-      text: 'I like to be in charge of scouting the enemy',
+      text: $localize`:@@answerVisionD:I like to be in charge of scouting the enemy`,
       points: 3
     }
   ],
@@ -271,18 +271,18 @@ export let QUESTIONS = [{
     owl: 3,
   }
 },{
-  question: 'Singleplayer or multiplayer?',
+  question: $localize`:@@questionSingleplayerOrMultiplayer:Singleplayer or multiplayer?`,
   answers: [
     {
-      text: 'Multiplayer',
+      text: $localize`:@@answerSingleplayerOrMultiplayerA:Multiplayer`,
       points: 0
     },
     {
-      text: 'Single player coop',
+      text: $localize`:@@answerSingleplayerOrMultiplayerB:Single player coop`,
       points: 2
     },
     {
-      text: 'Singleplayer',
+      text: $localize`:@@answerSingleplayerOrMultiplayerC:Singleplayer`,
       points: 4
     }
   ],
@@ -307,18 +307,18 @@ export let QUESTIONS = [{
     owl: 2,
   }
 },{
-  question: 'Eco-boosting your allies',
+  question: $localize`:@@questionEcoBuffAllies:Eco-boosting your allies`,
   answers: [
     {
-      text: 'I hate having to eco boost my team',
+      text: $localize`:@@answerEcoBuffAlliesA:I hate having to eco boost my team`,
       points: 0
     },
     {
-      text: 'I dont mind boosting the eco if someone asks me to',
+      text: $localize`:@@answerEcoBuffAlliesB:I dont mind boosting the eco if someone asks me to`,
       points: 2
     },
     {
-      text: 'I like to be in charge of the team eco boosts',
+      text: $localize`:@@answerEcoBuffAlliesC:I like to be in charge of the team eco boosts`,
       points: 4
     }
   ],
@@ -343,22 +343,22 @@ export let QUESTIONS = [{
     owl: 3,
   }
 },{
-  question: 'Would you like playing a clan that would be able to give various bonuses to your allies without hurting your economy?',
+  question: $localize`:@@questionBuffAllies:Would you like playing a clan that would be able to give various bonuses to your allies without hurting your economy?`,
   answers: [
     {
-      text: 'Not a fan',
+      text: $localize`:@@answerBuffAlliesA:Not a fan`,
       points: 0
     },
     {
-      text: 'I dont care',
+      text: $localize`:@@answerBuffAlliesB:I dont care`,
       points: 1
     },
     {
-      text: 'Why not',
+      text: $localize`:@@answerBuffAlliesC:Why not`,
       points: 2
     },
     {
-      text: 'I am a support in every game',
+      text: $localize`:@@answerEcoBuffAlliesD:I am a support in every game`,
       points: 3
     }
   ],
@@ -383,22 +383,22 @@ export let QUESTIONS = [{
     owl: 3,
   }
 },{
-  question: 'Passive wins (lore, fame, trade, clan specific)',
+  question: $localize`:@@questionPassiveWins:Passive wins (lore, fame, trade, clan specific)`,
   answers: [
     {
-      text: 'I ignore those',
+      text: $localize`:@@answerPassiveWinsA:I ignore those`,
       points: 0
     },
     {
-      text: 'I play mostly domination wins but i take my time',
+      text: $localize`:@@answerPassiveWinsB:I play mostly domination wins but i take my time`,
       points: 1
     },
     {
-      text: 'I use passive wins as a tie breaker',
+      text: $localize`:@@answerPassiveWinsC:I use passive wins as a tie breaker`,
       points: 2
     },
     {
-      text: 'Rushing passive wins is my jam',
+      text: $localize`:@@answerPassiveWinsD:Rushing passive wins is my jam`,
       points: 3
     }
   ],
@@ -423,14 +423,14 @@ export let QUESTIONS = [{
     owl: 3,
   }
 },{
-  question: 'What type of city building do you like?',
+  question: $localize`:@@questionCityBuilding:What type of city building do you like?`,
   answers: [
     {
-      text: 'Tall: few key buildings but each produce a lot',
+      text: $localize`:@@answerCityBuildingA:Tall: few key buildings but each produce a lot`,
       points: 0
     },
     {
-      text: 'Wide: a lot of buildings producing a small amount',
+      text: $localize`:@@answerCityBuildingB:Wide: a lot of buildings producing a small amount`,
       points: 6
     }
   ],
@@ -455,22 +455,22 @@ export let QUESTIONS = [{
     owl: 1,
   }
 },{
-  question: 'Aggressivity',
+  question: $localize`:@@questionAggressivity:Aggressivity`,
   answers: [
     {
-      text: 'I prefer being defensive',
+      text: $localize`:@@answerAggressivityA:I prefer being defensive`,
       points: 0
     },
     {
-      text: 'I could participate with others in small harrassment moves if asked by allies',
+      text: $localize`:@@answerAggressivityB:I could participate with others in small harrassment moves if asked by allies`,
       points: 1
     },
     {
-      text: 'I like to harrass the opponent with annoying mechanics',
+      text: $localize`:@@answerAggressivityC:I like to harrass the opponent with annoying mechanics`,
       points: 2
     },
     {
-      text: 'I want to make my opponent cry',
+      text: $localize`:@@answerAggressivityD:I want to make my opponent cry`,
       points: 3
     }
   ],
@@ -495,18 +495,18 @@ export let QUESTIONS = [{
     owl: 1,
   }
 },{
-  question: 'PVE and events',
+  question: $localize`:@@questionPveEvents:PVE and events`,
   answers: [
     {
-      text: 'I prefer clans that are less sensitive to PVE and events',
+      text: $localize`:@@answerPveEventsA:I prefer clans that are less sensitive to PVE and events`,
       points: 0
     },
     {
-      text: 'Its part of the game, it will not affect my enjoyment',
+      text: $localize`:@@answerPveEventsB:Its part of the game, it will not affect my enjoyment`,
       points: 2
     },
     {
-      text: 'I like clans that can benefit from PVE and events',
+      text: $localize`:@@answerPveEventsC:I like clans that can benefit from PVE and events`,
       points: 4
     }
   ],
@@ -531,14 +531,14 @@ export let QUESTIONS = [{
     owl: 1,
   }
 },{
-  question: 'Shoutcalling',
+  question: $localize`:@@questionShoutcalling:Shoutcalling`,
   answers: [
     {
-      text: 'I prefer people telling me what to do',
+      text: $localize`:@@answerShoutcallingA:I prefer people telling me what to do`,
       points: 0
     },
     {
-      text: 'I like to have time thinking about the next team move',
+      text: $localize`:@@answerShoutcallingB:I like to have time thinking about the next team move`,
       points: 4
     }
   ],
@@ -563,14 +563,14 @@ export let QUESTIONS = [{
     owl: 2,
   }
 },{
-  question: 'Carry',
+  question: $localize`:@@questionCarry:Carry`,
   answers: [
     {
-      text: 'I am more of a peeler, weakening the opponent ability to create or sustain an army',
+      text: $localize`:@@answerCarryA:I am more of a peeler, weakening the opponent ability to create or sustain an army`,
       points: 0
     },
     {
-      text: 'I am more of a carry, coming to give the final blow',
+      text: $localize`:@@answerCarryB:I am more of a carry, coming to give the final blow`,
       points: 4
     }
   ],
@@ -595,18 +595,18 @@ export let QUESTIONS = [{
     owl: 3,
   }
 },{
-  question: 'Build orders',
+  question: $localize`:@@questionBuildOrders:Build orders`,
   answers: [
     {
-      text: 'I like following the same build orders in every game',
+      text: $localize`:@@answerBuildOrdersA:I like following the same build orders in every game`,
       points: 0
     },
     {
-      text: 'I have some build orders depending on my spawn tiles',
+      text: $localize`:@@answerBuildOrdersB:I have some build orders depending on my spawn tiles`,
       points: 2
     },
     {
-      text: 'I like to have all options open when starting a game',
+      text: $localize`:@@answerBuildOrdersC:I like to have all options open when starting a game`,
       points: 4
     }
   ],
@@ -631,30 +631,30 @@ export let QUESTIONS = [{
     owl: 4,
   }
 },{
-  question: 'What is your favorite no DLC clan',
+  question: $localize`:@@questionFavoriteNoDlc:What is your favorite no DLC clan`,
   answers: [
     {
-      text: 'Wolf',
+      text: $localize`:@@clanWolf:Wolf`,
       points: 0
     },
     {
-      text: 'Bear',
+      text: $localize`:@@clanBear:Bear`,
       points: 1
     },
     {
-      text: 'Raven',
+      text: $localize`:@@clanRaven:Raven`,
       points: 2
     },
     {
-      text: 'Goat',
+      text: $localize`:@@clanGoat:Goat`,
       points: 3
     },
     {
-      text: 'Boar',
+      text: $localize`:@@clanBoar:Boar`,
       points: 4
     },
     {
-      text: 'Stag',
+      text: $localize`:@@clanStag:Stag`,
       points: 5
     }
   ],
@@ -679,18 +679,18 @@ export let QUESTIONS = [{
     owl: 3,
   }
 },{
-  question: 'Relics',
+  question: $localize`:@@questionRelics:Relics`,
   answers: [
     {
-      text: 'I ignore every relic, every game',
+      text: $localize`:@@answersRelicsA:I ignore every relic, every game`,
       points: 0
     },
     {
-      text: 'I like relics as a bonus',
+      text: $localize`:@@answersRelicsB:I like relics as a bonus`,
       points: 2
     },
     {
-      text: 'I like very powerful relics',
+      text: $localize`:@@answersRelicsC:I like very powerful relics`,
       points: 4
     }
   ],
@@ -715,14 +715,14 @@ export let QUESTIONS = [{
     owl: 4,
   }
 },{
-  question: 'Diplomacy',
+  question: $localize`:@@questionDiplomacy:Diplomacy`,
   answers: [
     {
-      text: 'I want a clan that can get it easily',
+      text: $localize`:@@answerDiplomacyA:I want a clan that can get it easily`,
       points: 0
     },
     {
-      text: 'I would like others to come to my townhall and grind it',
+      text: $localize`:@@answerDiplomacyB:I would like others to come to my townhall and grind it`,
       points: 4
     }
   ],
