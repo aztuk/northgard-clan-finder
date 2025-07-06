@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="clanWolf" datatype="html">
+        <source>Wolf</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clans-score.service.ts</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">637</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="clanStag" datatype="html">
+        <source>Stag</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clans-score.service.ts</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">657</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="clanGoat" datatype="html">
+        <source>Goat</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clans-score.service.ts</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">649</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="clanRaven" datatype="html">
+        <source>Raven</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clans-score.service.ts</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">645</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="clanBear" datatype="html">
+        <source>Bear</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clans-score.service.ts</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">641</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="clanBoar" datatype="html">
+        <source>Boar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clans-score.service.ts</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">653</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="clanSnake" datatype="html">
+        <source>Snake</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clans-score.service.ts</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="clanDragon" datatype="html">
+        <source>Dragon</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clans-score.service.ts</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="clanHorse" datatype="html">
+        <source>Horse</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clans-score.service.ts</context>
+          <context context-type="linenumber">110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="clanKraken" datatype="html">
+        <source>Kraken</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clans-score.service.ts</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="clanOx" datatype="html">
+        <source>Ox</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clans-score.service.ts</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="clanLynx" datatype="html">
+        <source>Lynx</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clans-score.service.ts</context>
+          <context context-type="linenumber">125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="clanSquirrel" datatype="html">
+        <source>Squirrel</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clans-score.service.ts</context>
+          <context context-type="linenumber">130</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="clanRat" datatype="html">
+        <source>Rat</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clans-score.service.ts</context>
+          <context context-type="linenumber">135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="clanEagle" datatype="html">
+        <source>Eagle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clans-score.service.ts</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="clanLion" datatype="html">
+        <source>Lion</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clans-score.service.ts</context>
+          <context context-type="linenumber">145</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="clanStoat" datatype="html">
+        <source>Stoat</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clans-score.service.ts</context>
+          <context context-type="linenumber">150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="clanOwl" datatype="html">
+        <source>Owl</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clans-score.service.ts</context>
+          <context context-type="linenumber">155</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="questionClearing" datatype="html">
+        <source>Clearing</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerClearingA" datatype="html">
+        <source>I love when someone comes to clear me</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerClearingB" datatype="html">
+        <source>I like being independent and not rely on someone else to be cleared</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerClearingC" datatype="html">
+        <source>I like farming mobs</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="questionFightingMicro" datatype="html">
+        <source>Fighting micro-management</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerFightingMicroA" datatype="html">
+        <source>I just send them to a strategic position and wait for the battle to end</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerFightingMicroB" datatype="html">
+        <source>I select all my army and target key units to kill the biggest threats</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerFightingMicroC" datatype="html">
+        <source>All of the above and i also use hit&amp;run mechanic</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerFightingMicroD" datatype="html">
+        <source>I like to use a combination of multiple unit types and micro manage their target and position</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="questionKeybindings" datatype="html">
+        <source>Keybindings</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerKeybindingsA" datatype="html">
+        <source>Except from WASD, i do everything with mouse</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerKeybindingsB" datatype="html">
+        <source>I use the most common keybindings to select units (e for army, h for scouts, g for villagers ...)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerKeybindingsC" datatype="html">
+        <source>I like to assign 1 or 2 custom groups micro manage specific units</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerKeybindingsD" datatype="html">
+        <source>I have a minimum of 4 custom groups every game</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="questionTactics" datatype="html">
+        <source>Tactics</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerTacticsA" datatype="html">
+        <source>I hate having to think about complex tactical positionning</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerTacticsB" datatype="html">
+        <source>I like creating surprise flanks, forcing enemy to reposition</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerTacticsC" datatype="html">
+        <source>I love having tools to trap enemies and finish the game with tactical moves</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="questionResourceManagement" datatype="html">
+        <source>Resource management</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerResourceManagementA" datatype="html">
+        <source>I am confortable with being on the edge of having sick villagers</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">157</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerResourceManagementB" datatype="html">
+        <source>I cheese as much as i can but do not calculate well everytime</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">161</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerResourceManagementC" datatype="html">
+        <source>When i try to do it, my people get sick often</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">165</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerResourceManagementD" datatype="html">
+        <source>I prefer having a huge food and wood stock and be never negative in production</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">169</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="questionMilitaryPresence" datatype="html">
+        <source>Military presence</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">194</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerMilitaryPresenceA" datatype="html">
+        <source>I hate having to make army in 801</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">197</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerMilitaryPresenceB" datatype="html">
+        <source>I dont mind making an army but would prefer to scale before</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">201</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerMilitaryPresenceC" datatype="html">
+        <source>&apos;I really dont mind making some units or warchief to assist harrass/defend</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">205</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerMilitaryPresenceD" datatype="html">
+        <source>I want to be the most powerful military in 801</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">209</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="questionVision" datatype="html">
+        <source>Vision</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">234</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerVisionA" datatype="html">
+        <source>I prefer scouting only my first surrounding tiles</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">237</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerVisionB" datatype="html">
+        <source>I like to scout further out, like the connexion tile and some tier 2 tiles</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">241</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerVisionC" datatype="html">
+        <source>I think scouting deep and spying is crucial</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">245</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerVisionD" datatype="html">
+        <source>I like to be in charge of scouting the enemy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">249</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="questionSingleplayerOrMultiplayer" datatype="html">
+        <source>Singleplayer or multiplayer?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">274</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerSingleplayerOrMultiplayerA" datatype="html">
+        <source>Multiplayer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">277</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerSingleplayerOrMultiplayerB" datatype="html">
+        <source>Single player coop</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">281</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerSingleplayerOrMultiplayerC" datatype="html">
+        <source>Singleplayer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">285</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="questionEcoBuffAllies" datatype="html">
+        <source>Eco-boosting your allies</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">310</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerEcoBuffAlliesA" datatype="html">
+        <source>I hate having to eco boost my team</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">313</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerEcoBuffAlliesB" datatype="html">
+        <source>I dont mind boosting the eco if someone asks me to</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">317</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerEcoBuffAlliesC" datatype="html">
+        <source>I like to be in charge of the team eco boosts</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">321</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="questionBuffAllies" datatype="html">
+        <source>Would you like playing a clan that would be able to give various bonuses to your allies without hurting your economy?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">346</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerBuffAlliesA" datatype="html">
+        <source>Not a fan</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">349</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerBuffAlliesB" datatype="html">
+        <source>I dont care</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">353</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerBuffAlliesC" datatype="html">
+        <source>Why not</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">357</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerEcoBuffAlliesD" datatype="html">
+        <source>I am a support in every game</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">361</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="questionPassiveWins" datatype="html">
+        <source>Passive wins (lore, fame, trade, clan specific)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">386</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerPassiveWinsA" datatype="html">
+        <source>I ignore those</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">389</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerPassiveWinsB" datatype="html">
+        <source>I play mostly domination wins but i take my time</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">393</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerPassiveWinsC" datatype="html">
+        <source>I use passive wins as a tie breaker</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">397</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerPassiveWinsD" datatype="html">
+        <source>Rushing passive wins is my jam</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">401</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="questionCityBuilding" datatype="html">
+        <source>What type of city building do you like?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">426</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerCityBuildingA" datatype="html">
+        <source>Tall: few key buildings but each produce a lot</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">429</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerCityBuildingB" datatype="html">
+        <source>Wide: a lot of buildings producing a small amount</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">433</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="questionAggressivity" datatype="html">
+        <source>Aggressivity</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">458</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerAggressivityA" datatype="html">
+        <source>I prefer being defensive</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">461</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerAggressivityB" datatype="html">
+        <source>I could participate with others in small harrassment moves if asked by allies</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">465</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerAggressivityC" datatype="html">
+        <source>I like to harrass the opponent with annoying mechanics</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">469</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerAggressivityD" datatype="html">
+        <source>I want to make my opponent cry</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">473</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="questionPveEvents" datatype="html">
+        <source>PVE and events</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">498</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerPveEventsA" datatype="html">
+        <source>I prefer clans that are less sensitive to PVE and events</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">501</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerPveEventsB" datatype="html">
+        <source>Its part of the game, it will not affect my enjoyment</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">505</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerPveEventsC" datatype="html">
+        <source>I like clans that can benefit from PVE and events</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">509</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="questionShoutcalling" datatype="html">
+        <source>Shoutcalling</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">534</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerShoutcallingA" datatype="html">
+        <source>I prefer people telling me what to do</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">537</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerShoutcallingB" datatype="html">
+        <source>I like to have time thinking about the next team move</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">541</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="questionCarry" datatype="html">
+        <source>Carry</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">566</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerCarryA" datatype="html">
+        <source>I am more of a peeler, weakening the opponent ability to create or sustain an army</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">569</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerCarryB" datatype="html">
+        <source>I am more of a carry, coming to give the final blow</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">573</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="questionBuildOrders" datatype="html">
+        <source>Build orders</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">598</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerBuildOrdersA" datatype="html">
+        <source>I like following the same build orders in every game</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">601</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerBuildOrdersB" datatype="html">
+        <source>I have some build orders depending on my spawn tiles</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">605</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerBuildOrdersC" datatype="html">
+        <source>I like to have all options open when starting a game</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">609</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="questionFavoriteNoDlc" datatype="html">
+        <source>What is your favorite no DLC clan</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">634</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="questionRelics" datatype="html">
+        <source>Relics</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">682</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answersRelicsA" datatype="html">
+        <source>I ignore every relic, every game</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">685</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answersRelicsB" datatype="html">
+        <source>I like relics as a bonus</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">689</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answersRelicsC" datatype="html">
+        <source>I like very powerful relics</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">693</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="questionDiplomacy" datatype="html">
+        <source>Diplomacy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">718</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerDiplomacyA" datatype="html">
+        <source>I want a clan that can get it easily</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">721</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="answerDiplomacyB" datatype="html">
+        <source>I would like others to come to my townhall and grind it</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data.ts</context>
+          <context context-type="linenumber">725</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="287129827830831054" datatype="html">
+        <source>Final result</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/questions/questions.component.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
